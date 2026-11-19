@@ -59,7 +59,7 @@ class AttendanceApp:
                         w.writerows(rows)
                     messagebox.showinfo("Export", f"Exported {len(rows)} records.")
 
-                        # Build the window and all controls.
+    # Build the window and all controls.
     def build(self):
         style = ttk.Style()
         style.theme_use("clam")
